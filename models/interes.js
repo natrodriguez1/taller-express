@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   interes.init({
-    id: DataTypes.INTEGER,
     descripcion: DataTypes.STRING
   }, {
     sequelize,

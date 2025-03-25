@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   suscriptor.init({
-    id: DataTypes.INTEGER,
     nombre: DataTypes.STRING,
     email: DataTypes.STRING,
     fecha_registro: DataTypes.DATE
